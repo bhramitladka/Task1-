@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <h1>Project Management Tool</h1>
+            <!-- Task input and category selection -->
+            <div class="task-form">
+                <input type="text" id="task" placeholder="Add a task">
+                <select id="category">
+                    <option value="General">General</option>
+                    <option value="Design">Design</option>
+                    <option value="Development">Development</option>
+                    <option value="Marketing">Marketing</option>
+                </select>
+                <button id="add-task">Add Task</button>
+            </div>
+            <!-- Task list -->
+            <ul id="task-list"></ul>
+            <!-- Recommendations -->
+            <div class="recommendations" id="recommendations">
+                <h2>Recommendations</h2>
+                <ul id="recommendation-list">
+                    <li>No recommendations available.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
